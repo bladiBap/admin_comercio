@@ -1,0 +1,53 @@
+.size_img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.size_img:hover{
+    filter: grayscale(0.8);
+    transform: scale(1.02);
+    transition: transform 0.5s;
+}
+
+.container_img{
+    width: 160px;
+}
+
+.txt_view{
+    pointer-events: none;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    transition: opacity 0.5s;
+}
+
+.container_img:hover .txt_view{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+.slider{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    background-size: cover ;
+    width: 100% ;
+    aspect-ratio: 9/12 ;
+}
+
+.container_img > div {
+    height: auto;
+    width: 100%;
+}
+
+

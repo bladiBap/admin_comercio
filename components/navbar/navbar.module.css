@@ -1,0 +1,23 @@
+.logo{
+    width: 70px;
+}
+
+.navbar{
+    z-index: 99;
+}
+
+.navbar header {
+    min-width: 100%;
+    padding: 0px 300px;
+}
+
+.navbar header ul > ul {
+    justify-content: center !important;
+    gap: 60px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .input_nav_web_view {
+        display: none;
+    }
+}
