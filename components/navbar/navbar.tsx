@@ -108,7 +108,7 @@ export default function Navigation() {
                 <NavbarContent>
                     <Image
                         className={style.logo}
-                        src="/image/logo.png"
+                        src="/image/logo.webp"
                         alt="Logo"
                         width={40}
                         height={40}
